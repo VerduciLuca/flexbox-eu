@@ -29,6 +29,7 @@ body {
     height: 300px;
     /* border: 1px solid black; */
     display: flex;
+    margin: 10px;
 
     flex: 1;
 }
@@ -44,4 +45,5 @@ body {
 hr{
     border: 1px solid white;
     width: 100%;
+   margin-top: 8px;
 }

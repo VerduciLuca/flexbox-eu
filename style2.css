@@ -1,6 +1,7 @@
 body * {
     box-sizing: border-box;
 }
+
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;700&family=Oswald:wght@300;500&display=swap');
 
 body {
@@ -19,14 +20,17 @@ body {
     flex-direction: column;
     height: 850px;
     border: 1px solid white;
+
 }
 
 .row {
     display: flex;
+    gap: 15px;
+    margin: 8px;
 }
 
 .column {
-    border: 1px solid black;
+    /* border: 1px solid black; */
     display: flex;
     flex-direction: column;
     flex: 1;
@@ -35,4 +39,9 @@ body {
 hr {
     width: 100%;
     border: 1px solid white;
+    margin-top: 0px;
+}
+
+h2 h3 {
+    margin: 8px, 0px
 }
