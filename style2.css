@@ -16,10 +16,10 @@ body {
 
 .main-box {
     display: flex;
-    width: 1080px;
+   max-width: 1080px;
     flex-direction: column;
     height: 850px;
-    border: 1px solid white;
+    /* border: 1px solid white; */
 
 }
 
@@ -27,6 +27,8 @@ body {
     display: flex;
     gap: 15px;
     margin: 8px;
+    flex-wrap: wrap;
+    margin-bottom: 16px;
 }
 
 .column {
@@ -34,6 +36,7 @@ body {
     display: flex;
     flex-direction: column;
     flex: 1;
+    min-width: 300px;
 }
 
 hr {
@@ -44,4 +47,16 @@ hr {
 
 h2 h3 {
     margin: 8px, 0px
+}
+p{
+    margin: 4px;
+}
+
+.social-box{
+    display: flex;
+    gap: 12px;
+}
+.social-span{
+    display: flex;
+    gap: 4px;
 }
